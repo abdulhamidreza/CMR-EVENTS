@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hamid.cmr3.Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/event_view_image_1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/e_1" />
+<ScrollView
+    android:layout_below="@id/event_view_image_1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+    <LinearLayout
+            android:id="@+id/line_1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            >
+
+            <ImageView
+                android:id="@+id/event_view_image_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_2" />
+
+            <ImageView
+                android:id="@+id/event_view_image_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_3" />
+
+            <ImageView
+                android:id="@+id/event_view_image_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_4" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line_2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/line_1">
+
+            <ImageView
+                android:id="@+id/event_view_image_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_5" />
+
+            <ImageView
+                android:id="@+id/event_view_image_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_6" />
+
+            <ImageView
+                android:id="@+id/event_view_image_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_7" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line_3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/line_2">
+
+            <ImageView
+                android:id="@+id/event_view_image_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_8" />
+
+            <ImageView
+                android:id="@+id/event_view_image_9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_9" />
+
+            <ImageView
+                android:id="@+id/event_view_image_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_10" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line_4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/line_3">
+
+            <ImageView
+                android:id="@+id/event_view_image_11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_11" />
+
+            <ImageView
+                android:id="@+id/event_view_image_12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_12" />
+
+            <ImageView
+                android:id="@+id/event_view_image_13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:src="@drawable/e_13" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_below="@id/line_4"
+            android:paddingTop="36dp"
+            android:textAlignment="center"
+            android:paddingLeft="36dp"
+            android:paddingRight="36dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELLO 2 @ Animations can add subtle visual cues that notify users about what's going on in your app and improve their mental model of your app's interface. Animations are especially useful when the ... screens with a sliding transition. Displaying Card Flip Animations: Learn how to animate between two views with a flipping motion.
+Using animations in Android application - Tutorial - Vogella
+www.vogella.com/tutorials/AndroidAnimation/article.html
+Jul 11, 2017 - Create a new Android project with the top level package name com.vogella.android.animation.views and an activity called AnimationExampleActivity. The layout file should be called activity_main.xml. Change your layout file to the following code. Change your activity similar to the following listing.
+‎Android Animations · ‎Exercise: Using the ... · ‎Activity animations in ...
+"/>
+       </RelativeLayout>
+</ScrollView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

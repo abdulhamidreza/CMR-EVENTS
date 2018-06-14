@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hamid.cmr3.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <!-- vertical ScrollView to make all the items or views scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_1"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:src="@drawable/p_0" />
+
+            <TextView
+                style="@style/style_on_images"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:text="2018"
+                android:textSize="36sp" />
+
+            <LinearLayout
+                android:id="@+id/row_1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/image_1">
+
+                <ImageView
+                    android:id="@+id/image_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:src="@drawable/p_13" />
+
+                <ImageView
+                    android:id="@+id/image_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:src="@drawable/p_11" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/image_1"
+                android:padding="4dp">
+
+                <TextView
+                    style="@style/style_on_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="EVENTS" />
+
+                <TextView
+                    style="@style/style_on_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="DJ NIGHT" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/row_2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/row_1">
+
+                <ImageView
+                    android:id="@+id/image_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:src="@drawable/p_6" />
+
+                <ImageView
+                    android:id="@+id/image_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:src="@drawable/p_1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/row_1"
+                android:padding="4dp">
+
+                <TextView
+                    style="@style/style_on_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ABOUT" />
+
+                <TextView
+                    style="@style/style_on_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="SUPPORTS" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/row_2"
+                android:paddingLeft="36dp"
+                android:paddingRight="36dp"
+                android:paddingTop="16dp"
+                android:text="HELLO_1 @ Animations can add subtle visual cues that notify users about what's going on in your app and improve their mental model of your app's interface. Animations are especially useful when the ... screens with a sliding transition. Displaying Card Flip Animations: Learn how to animate between two views with a flipping motion.
+Using animations in Android application - Tutorial - Vogella
+www.vogella.com/tutorials/AndroidAnimation/article.html
+Jul 11, 2017 - Create a new Android project with the top level package name com.vogella.android.animation.views and an activity called AnimationExampleActivity. The layout file should be called activity_main.xml. Change your layout file to the following code. Change your activity similar to the following listing.
+‎Android Animations · ‎Exercise: Using the ... · ‎Activity animations in ...
+"
+                android:textAlignment="center" />
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
